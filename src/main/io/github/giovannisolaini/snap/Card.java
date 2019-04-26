@@ -15,9 +15,9 @@ public class Card {
 	 * @param cardSymbol - The card's symbol
 	 * @param cardRank - The card's rank
 	 */
-	public Card(CardSymbol cardSymbol, CardRank cardValue) {
+	public Card(CardSymbol cardSymbol, CardRank cardRank) {
 		this.cardSymbol = cardSymbol;
-		this.cardRank = cardValue;
+		this.cardRank = cardRank;
 	}
 
 	/**
