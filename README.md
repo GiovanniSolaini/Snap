@@ -13,11 +13,13 @@ Snap can be compiled, tested and run via [maven](https://maven.apache.org/) (all
 
 NOTE: maven will install required dependencies the first time the commands are run
 
-1. Run ```mvn clean compile```. This will run the unit tests and create the class files.
+1. Run ```mvn clean compile```. This will create the class files.
 2. Run ```mvn exec:java``` to run the program.
 
 If you wish to create an executable jar file instead:
 
-1. Run ```mvn clean package```. This will create a jar file called "Snap-1.0.0.jar" in the (project root)/target folder
+1. Run ```mvn clean package```. This will create a jar file called "Snap-1.0.0.jar" in the (project root)/target folder and run the unit tests.
 2. Navigate to the folder containing the jar file (```cd target``` if you didn't move the file).
 3. Run ```java -jar Snap-1.0.0.jar``` to run the program.
+
+If you wish to only run the unit tests, run ```mvn test```
