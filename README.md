@@ -22,4 +22,4 @@ If you wish to create an executable jar file instead:
 2. Navigate to the folder containing the jar file (```cd target``` if you didn't move the file).
 3. Run ```java -jar Snap-1.0.0.jar``` to run the program.
 
-If you wish to only run the unit tests, run ```mvn test```
+If you wish to only run the unit tests, run ```mvn test```.
