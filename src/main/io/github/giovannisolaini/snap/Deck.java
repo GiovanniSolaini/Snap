@@ -12,6 +12,9 @@ import java.util.Collections;
 public class Deck {
 	private List<Card> cards = new ArrayList<Card>();
 
+	/**
+	 * Deck constructor, which creates 52 cards as in a standard French playing cards deck
+	 */
 	public Deck() {
 		for (CardSymbol cardSymbol : CardSymbol.values()) {
 			for (CardRank cardRank : CardRank.values()) {

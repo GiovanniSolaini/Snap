@@ -10,18 +10,27 @@ public class Card {
 	private CardSymbol cardSymbol;
 	private CardRank cardRank;
 	
+	/**
+	 * Card constructor, taking a symbol and a rank as values
+	 * @param cardSymbol - The card's symbol
+	 * @param cardRank - The card's rank
+	 */
 	public Card(CardSymbol cardSymbol, CardRank cardValue) {
 		this.cardSymbol = cardSymbol;
 		this.cardRank = cardValue;
 	}
 
+	/**
+	 * Getter for the card's symbol
+	 * @return The symbol of the card
+	 */
 	public CardSymbol getCardSymbol() {
 		return cardSymbol;
 	}
 
 	/**
-	 * Getter for the card's value/rank
-	 * @return The value/rank of the card
+	 * Getter for the card's rank
+	 * @return The rank of the card
 	 */
 	public CardRank getCardRank() {
 		return cardRank;
