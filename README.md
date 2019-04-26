@@ -11,6 +11,8 @@ src/test: contains unit tests.
 
 Snap can be compiled, tested and run via [maven](https://maven.apache.org/) (all the given commands should be done in a command-line interface in the project root folder unless stated otherwise):
 
+NOTE: maven will install required dependencies the first time the commands are run
+
 1. Run ```mvn clean compile```. This will run the unit tests and create the class files.
 2. Run ```mvn exec:java``` to run the program.
 
