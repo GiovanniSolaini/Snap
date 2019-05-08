@@ -19,7 +19,7 @@ public class Main {
 			
 			System.out.print("The game is over! Input Y/y to restart, or any other input to close the program.");
 			
-			if (!in.next().equalsIgnoreCase("y")) {
+			if (!in.nextLine().equalsIgnoreCase("y")) {
 				keepPlaying = false;
 			}
 			
