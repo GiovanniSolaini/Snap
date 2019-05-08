@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  *
  */
 public class SnapGame {
-	private Deck deck = new Deck();
+	private Deck deck;
 	
 	private String player1;
 	private String player2;
@@ -29,6 +29,7 @@ public class SnapGame {
 	 */
 	public void play() {
 		// setting up
+		deck = new Deck();
 		deck.shuffle();
 		int turn = 0;
 		Random rand = new Random();
