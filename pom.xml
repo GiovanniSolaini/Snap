@@ -3,10 +3,11 @@
   <groupId>Snap</groupId>
   <artifactId>Snap</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>Snap</name>
   <description>Simple Java implementation of the card game "Snap"</description>
   <build>
+    <finalName>${project.artifactId}</finalName>
     <sourceDirectory>src/main</sourceDirectory>
     <testSourceDirectory>src/test/io/github/giovannisolaini/snap</testSourceDirectory>
     <plugins>
