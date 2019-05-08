@@ -9,7 +9,7 @@ src/test: contains unit tests.
 
 ## Compiling and running
 
-**From version 1.0.1 onwards, the version number is no longer part of the jar filename. Please see the updated guide:**
+**From version 1.0.1 onwards, the version number is no longer part of the jar filename. The guide has been updated to reflect this.**
 
 Snap can be compiled, tested and run via [Maven](https://maven.apache.org/) (all the given commands should be done in a command-line interface in the project root folder unless stated otherwise):
 
